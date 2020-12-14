@@ -8,4 +8,4 @@ The Sockets extension package for the Ring programming language
 
 ## Author
 
-	This game is developed by Abdallah Elsharif
+	This extension is developed by Abdallah Elsharif
