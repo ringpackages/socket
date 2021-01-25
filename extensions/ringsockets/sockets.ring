@@ -8,9 +8,9 @@
 Load "lib/constants.ring"
 
 if iswindows()
-        LoadLib("socket.dll")
+        LoadLib("ring_sockets.dll")
 but ismacosx()
-        LoadLib("socket.dylib")
+        LoadLib("libring_sockets.dylib")
 else
-        LoadLib("socket.so")
+        LoadLib("libring_sockets.so")
 ok
